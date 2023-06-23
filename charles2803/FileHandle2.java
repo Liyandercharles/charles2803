@@ -8,6 +8,7 @@ public class FileHandle2
 {
 	public static void main(String args[]) throws IOException
 	{
+		System.out.println("FILE HANDLING");
 		File obja=new File("D:\\java");
 		if(obja.mkdir())
 			System.out.println("Directory Created");
